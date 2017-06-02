@@ -7,8 +7,8 @@
 //
 
 #import "RCTCardIOView.h"
-#import "RCTBridge.h"
-#import "RCTEventDispatcher.h"
+#import <React/RCTBridge.h>
+#import <React/RCTEventDispatcher.h>
 
 @implementation RCTConvert (CardIODetectionMode)
 RCT_ENUM_CONVERTER(CardIODetectionMode, (@{
